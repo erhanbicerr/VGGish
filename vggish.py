@@ -23,7 +23,7 @@ import vggish_params as params
 
 
 # weight path
-WEIGHTS_PATH = '/home/brain/Documents/git/VGGish/vggish_audioset_weights_without_fc2.h5'
+WEIGHTS_PATH = 'vggish_audioset_weights_without_fc2.h5'
 
 def VGGish(load_weights=True, weights='audioset',
            input_tensor=None, input_shape=None,
